@@ -1,5 +1,5 @@
 # Curse
-<b>WORK IN PROGRESS</b> .NET Curse Addons Service Wrapper
+<b>WORK IN PROGRESS</b> | .NET Curse Addons Service Wrapper
 
 # Example
 You can run Curse.Test to get an example using this library. See result (used minecraft curse mods):
