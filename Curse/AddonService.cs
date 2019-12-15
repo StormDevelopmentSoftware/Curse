@@ -49,9 +49,6 @@ namespace Curse
             var addon = JObject.Parse(json)
                 .ToObject<Addon>();
 
-            addon.Authors = addon._authorsInternal;
-            addon.Attachments = addon._attachmentsInternal;
-            addon.Categories = addon._categoriesInternal;
             addon.Service = this;
 
             return addon;
@@ -78,14 +75,9 @@ namespace Curse
                 .ToObject<List<Addon>>();
 
             foreach(var addon in rawAddons)
-            {
-                addon.Authors = addon._authorsInternal;
-                addon.Attachments = addon._attachmentsInternal;
-                addon.Categories = addon._categoriesInternal;
                 addon.Service = this;
-            }
 
-            return rawAddons.ToList()
+            return rawAddons
                 .AsReadOnly();
         }
 

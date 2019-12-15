@@ -1,9 +1,11 @@
 # Curse
-<b>WORK IN PROGRESS</b> | .NET Curse Addons Service Wrapper
+<i>WORK IN PROGRESS</i> - .NET Curse Addons Service Wrapper
 
 # Example
 You can run Curse.Test to get an example using this library. See result (used minecraft curse mods):
-<img src="https://i.imgur.com/eN1vZkx.png" alt="curse test result in console" />
+<img src="https://i.imgur.com/eN1vZkx.png" alt="curse test result in console (image 1)" />
+<hr/>
+<img src="https://i.imgur.com/VjrWcyc.png" alt="curse test result in console (image 2)" />
 
 # Usage
 Just initialize curse addon service and use:

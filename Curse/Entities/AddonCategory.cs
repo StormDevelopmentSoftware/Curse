@@ -51,7 +51,7 @@ namespace Curse.Entities
 
 		public bool Equals(AddonCategory other)
 		{
-			if (ReferenceEquals(other, null))
+			if (other is null)
 				return false;
 
 			if (ReferenceEquals(this, other))

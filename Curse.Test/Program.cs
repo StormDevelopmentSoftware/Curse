@@ -15,10 +15,13 @@ namespace Curse.Test
 		static void DumpAddon(Addon a)
 		{
 			Console.ForegroundColor = ConsoleColor.Blue;
-			Console.Write($"{a.Name} ".PadRight(Console.CursorLeft >= 35 ? 0 : 35 - Console.CursorLeft));
+			Console.Write($"{a.Name}");//.PadRight(Console.CursorLeft >= 35 ? 0 : 35 - Console.CursorLeft));
+
+			Console.ForegroundColor = ConsoleColor.Red;
+			Console.Write(" - ");
 
 			Console.ForegroundColor = ConsoleColor.White;
-			Console.Write($"({a.Url})");
+			Console.Write($"{a.Summary}");
 
 			Console.ForegroundColor = ConsoleColor.Gray;
 			Console.WriteLine("\n - Authors:");

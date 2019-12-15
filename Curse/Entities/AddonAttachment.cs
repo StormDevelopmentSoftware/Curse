@@ -48,7 +48,7 @@ namespace Curse.Entities
 
 		public bool Equals(AddonAttachment other)
 		{
-			if (ReferenceEquals(other, null))
+			if (other is null)
 				return false;
 
 			if (ReferenceEquals(this, other))

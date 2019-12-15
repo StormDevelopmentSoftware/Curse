@@ -44,7 +44,7 @@ namespace Curse.Entities
 
         public bool Equals(AddonAuthor other)
         {
-            if (ReferenceEquals(other, null))
+            if (other is null)
                 return false;
 
             if (ReferenceEquals(this, other))
