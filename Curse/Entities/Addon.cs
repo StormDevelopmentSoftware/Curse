@@ -1,7 +1,4 @@
-﻿using System.Text;
-using System.Linq;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using System;
@@ -108,5 +105,10 @@ namespace Curse.Entities
 
 		public static bool operator !=(Addon a1, Addon a2)
 			=> !(a1 == a2);
+	}
+
+	public class AddonFile
+	{
+		public 
 	}
 }
